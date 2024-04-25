@@ -1,5 +1,7 @@
 # Simple encryption algorithms
 
+Related article: [https://bit.ly/3WfKXWK](https://bit.ly/3WfKXWK)
+
 ## Contents
 
 - Caesar cipher
