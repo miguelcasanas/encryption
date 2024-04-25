@@ -58,7 +58,7 @@ def bitwise(plaintext: bytes, key: int=4, decrypt: bool=False) -> bytes:
 
     # Byte transformation
     key %= 8
-    new_byte = lambda byte: (byte >> key)| (byte << (8 - key) & 0xff)
+    new_byte = lambda byte: (byte >> key) | (byte << (8 - key) & 0xff)
     ciphertext = bytes(map(new_byte, plaintext))
 
     return ciphertext
